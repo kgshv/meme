@@ -1,3 +1,5 @@
+* Adapted for use at the [Kiyv Post](http://kyivpost.com)
+
 # Meme v.2
 
 Contributors: Yuri Victor, Joshua Benton, Matt Montgomery, Ivar Vong, Steve Peters, Flip Stewart, Greg MacWilliam.
