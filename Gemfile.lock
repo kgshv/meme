@@ -24,7 +24,7 @@ GEM
     erubis (2.7.0)
     eventmachine (1.0.3)
     execjs (2.2.0)
-    ffi (1.9.3)
+    ffi (1.9.10)
     fssm (0.2.10)
     haml (4.0.5)
       tilt
@@ -115,7 +115,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ffi (~> 1.9.9)
   middleman (~> 3.3.3)
   middleman-livereload (~> 3.1.0)
   tzinfo-data
   wdm (~> 0.1.0)
+
+BUNDLED WITH
+   1.11.2
