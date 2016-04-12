@@ -1,6 +1,6 @@
 var MEME_SETTINGS = {
   creditText: 'Source: AFP', // Default "credits" text.
-  creditSize: 12, // Font size for credit text.
+  creditSize: 10, // Font size for credit text.
   downloadName: 'share', // The name of the downloaded image file (will have a ".png" extension added).
   fontColor: 'white', // Universal font color.
 
@@ -15,10 +15,11 @@ var MEME_SETTINGS = {
   fontSize: 24,
   // Font size options: set to empty array to disable font-size selector.
   fontSizeOpts: [
-    {text: 'Small text', value: 14},
-    {text: 'Medium text', value: 24},
-    {text: 'Large text', value: 36},
-    {text: 'Extra large text', value: 48}
+    {text: 'Text size 14', value: 14},
+    {text: 'Text size 24', value: 24},
+    {text: 'Text size 32', value: 32},
+    {text: 'Text size 36', value: 36},
+    {text: 'Text size 48', value: 48}
   ],
 
   headlineText: 'Write your own headline', // Default headline text.
@@ -57,7 +58,8 @@ var MEME_SETTINGS = {
   watermarkOpts: [
     // {text: 'Vox', value: '<%= image_path("vox.png") %>', data: '<%= asset_data_uri("vox.png") %>'},
     // {text: 'The Verge', value: '<%= image_path("theverge.png") %>', data: ''},
-    {text: 'Kyiv Post', value: '<%= image_path("kyivpost.png") %>', data: ''},
+    {text: 'Kyiv Post small', value: '<%= image_path("kyivpost_small.png") %>', data: ''},
+    {text: 'Kyiv Post large', value: '<%= image_path("kyivpost_big.png") %>', data: ''},
     {text: 'none', value: '', data: ''}
     // {text: 'Capturing New Markets conference', value: '<%= image_path("capturing.png") %>', data: ''},
   ],
